@@ -1,0 +1,102 @@
+{
+    "source": "mockoon:1.15.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 17,
+                "name": "Playground API",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3001,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "get-contacts",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"contacts\": [\n      {\n        \"id\": 1,\n        \"name\": \"Tio\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Satrio\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 3,\n        \"name\": \"Wicaksono\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 4,\n        \"name\": \"Arga\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 5,\n        \"name\": \"Ardana\",\n        \"phone\": \"+6280989999\"\n      }\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "Access-Control-Allow-Origin",
+                                        "value": "http://localhost:3000"
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "get-contacts/loadmore",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"contacts\": [\n      {\n        \"id\": 11,\n        \"name\": \"Test 1\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 12,\n        \"name\": \"Test 2\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 13,\n        \"name\": \"Test 3\",\n        \"phone\": \"+6280989999\"\n      },\n      {\n        \"id\": 14,\n        \"name\": \"Test 4\",\n        \"phone\": \"+6280989999\"\n      }\n    ]\n}",
+                                "latency": 1000,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "Access-Control-Allow-Origin",
+                                        "value": "http://localhost:3000"
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
